@@ -11,7 +11,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 print("Loading...")
 
 response = openai.Image.create(
-  prompt="animal tattoo ideas and inspiration",
+  prompt="night stars in the sky",
   n=5,
   size="1024x1024"
 )
